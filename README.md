@@ -6,17 +6,10 @@ Convert uploaded image and convert it into text using [Tesseract.js](https://git
 ### Running with Node & Nodemon
 
 ```
-git clone https://github.com/asepmaulanaismail/image-to-text-nodejs-microservice
-cd image-to-text-nodejs-microservice/
-node server.js
-```
-
-or
-
-```
-git clone https://github.com/asepmaulanaismail/image-to-text-nodejs-microservice
-cd image-to-text-nodejs-microservice/
-nodemon server.js
+git clone https://github.com/faizan-aion/nodejs-tesseract-ocr.git
+cd nodejs-tesseract-ocr/
+npm install
+npm run start
 ```
 
 ### Running with Docker
@@ -24,10 +17,10 @@ nodemon server.js
 See [how to install docker](https://github.com/asepmaulanaismail/install-docker-ubuntu-shell-script).
 
 ```
-git clone https://github.com/asepmaulanaismail/image-to-text-nodejs-microservice
-cd image-to-text-nodejs-microservice/
-sudo docker build -t jwt-auth-nodejs:latest .
-sudo docker run -d -p 8080:8080 jwt-auth-nodejs
+git clone https://github.com/faizan-aion/nodejs-tesseract-ocr.git
+cd nodejs-tesseract-ocr/
+sudo docker build -t nodejs-tesseract-ocr:latest .
+sudo docker run -d -p 8080:8080 nodejs-tesseract-ocrgit
 ```
 
 # API:
